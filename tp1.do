@@ -45,7 +45,7 @@ tab operat
 tab hattac
 tab geo
 
-// Reemplazamos las comas por puntos, separando aquellas variables que unian erroneamente texto y valores numericos.
+// Reemplazamos las comas por puntos, separando aquellas variables que unian erroneamente texto y valores numericos. asdef
 split hipsiz, parse("") g(hipsiz)
 replace hipsiz = hipsiz3
 replace hipsiz =  subinstr( hipsiz, ",", ".", . )
